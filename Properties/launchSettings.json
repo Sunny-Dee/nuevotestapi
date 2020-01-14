@@ -1,5 +1,4 @@
-﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -8,23 +7,29 @@
       "sslPort": 44383
     }
   },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/impact",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "Key": "Value",
+        "AccountKey": "DefaultEndpointsProtocol=https;AccountName=nuevoblobstorage;AccountKey=Bvf8X7MYU0arFJnhylIE4nboqmWlnptj8okKKIm3wSaXdL6Oi+1+J4sIRQnMufAeSjrTKOBomkY+6DrxTWZPdw==;EndpointSuffix=core.windows.net",
+        "AccountName": "nuevoblobstorage",
+        "someval": "another",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ContainerName": "nuevoblobcontainer"
       }
     },
     "NuevoFoundationApiVersion2": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "launchUrl": "api/impact",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
     }
   }
 }
